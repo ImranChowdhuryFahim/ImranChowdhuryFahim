@@ -1,4 +1,11 @@
-### Hi there 👋
+### Hello! 👋 I'm Imran Chowdhury
+
+<br>
+<p align="center">
+  <img  height=160 src="https://github-readme-stats.vercel.app/api?username=ImranChowdhuryFahim&count_private=true&theme=onedark&hide=stars"/>
+<img height=160 src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImranChowdhuryFahim&layout=compact&theme=onedark"/>
+</p>
+<br>
 
 <!--
 **ImranChowdhuryFahim/ImranChowdhuryFahim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
