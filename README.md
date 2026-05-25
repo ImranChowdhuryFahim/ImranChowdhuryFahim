@@ -1,8 +1,8 @@
 # Hi there, I'm Imran Chowdhury 👋
 
-**Backend Engineer** specializing in scalable systems, distributed architectures, and AI-powered applications.
+**Software Engineer** specializing in scalable systems, distributed architectures, and AI-powered applications.
 
-Currently building production systems at **FringeCore** that serve 150K+ users, with a focus on performance optimization, system reliability, and cutting-edge AI integration.
+I gravitate toward the hard problems — legacy systems that can't afford downtime, queries nobody wants to touch, and infrastructure that has to work at scale without breaking.
 
 ## 🚀 What I Do
 
@@ -13,62 +13,79 @@ I architect and build backend systems that scale. From real-time CDC pipelines p
 - Optimized database queries achieving **99.5% performance improvement** (18.9s → 100ms)
 - Architected enterprise CDC pipeline using **Kafka + Debezium** for hospital database migration (400K+ patient records, zero downtime)
 - Developed **LilyGPT**, an AI-powered Bangla news assistant using RAG, LangGraph, and ChromaDB
+- Contributed to **Infinity Business** — bKash KAM platform serving ~250 Key Account Managers, syncing ~900,000 merchants via RabbitMQ async pipeline
 - Saved **40 lakh BDT** in hardware costs through infrastructure modernization and query optimization
 
 ## 💻 Tech Stack
 
-**Backend & APIs**
+**Languages & Runtimes**
 ```
-Node.js • TypeScript • Express.js • tRPC • GraphQL • RESTful APIs
+Node.js · TypeScript · PHP · Python · Go
+```
+
+**Frameworks**
+```
+Express.js · NestJS · FastAPI · React.js · Redux
 ```
 
 **Databases**
 ```
-PostgreSQL • MongoDB • MySQL • Redis • Oracle • Elasticsearch
+PostgreSQL · MySQL · MongoDB · Redis · Elasticsearch · ChromaDB
 ```
 
-**Distributed Systems & Infrastructure**
+**Distributed Systems**
 ```
-Kafka • Debezium • Docker • Nginx • AWS (S3, Lambda, ECR, Lightsail)
+Kafka · Debezium · CDC · RabbitMQ · Event-Driven Architecture
 ```
 
 **AI/ML**
 ```
-LangGraph • RAG Architecture • OpenAI APIs • ChromaDB • Vector Embeddings
+RAG Architecture · LangGraph · OpenAI APIs · Vector Embeddings
 ```
 
-**DevOps & Monitoring**
+**Infrastructure & Cloud**
 ```
-GitHub Actions • Prometheus • Grafana • PM2 • CloudWatch
+AWS (S3, Lambda, Rekognition, ECR, Lightsail) · Cloudflare (Workers, KV, R2, Pages) · Docker · Kubernetes · Proxmox
+```
+
+**DevOps & Observability**
+```
+GitHub Actions · CI/CD · Prometheus · Grafana · CloudWatch · Winston
 ```
 
 ## 🏗️ Notable Projects
 
-### 🎯 [ekhon.tv](https://ekhon.tv) - News Platform
-Production platform serving 150K+ monthly users with self-healing architecture. Backend pushes to Cloudflare KV; on failure, frontend falls back to MongoDB and auto-updates cache.
+### 🎯 [ekhon.tv](https://ekhon.tv) — News Platform
+Production platform serving 150K+ monthly users with self-healing caching architecture.
 
-**Tech:** Node.js, MongoDB, Cloudflare Workers, Redis
+**Tech:** Node.js · MongoDB · Cloudflare Workers · Redis
 
-### 🤖 LilyGPT - AI-Powered Bangla News Assistant
-RAG-based conversational AI using state machines for context management, automated content ingestion pipeline, and semantic search capabilities.
+---
 
-**Tech:** LangGraph, ChromaDB, Voyage AI Embeddings, Bull MQ, OpenAI
+### 🤖 LilyGPT — AI-Powered Bangla News Assistant
+RAG-based conversational AI with automated content ingestion pipeline and semantic search.
 
-### 🏥 [Enterprise CDC Pipeline - Asgar Ali Hospital](https://www.asgaralihospital.com/)
-Zero-downtime Oracle to PostgreSQL migration processing 175GB+ database (400K+ patient records) with real-time data consistency using Kafka and Debezium.
+**Tech:** LangGraph · ChromaDB · Voyage AI · BullMQ · OpenAI
 
-**Tech:** Kafka, Debezium, PostgreSQL, Oracle, Node.js
+---
 
-### 📻 [spicefmbd.com](https://spicefmbd.com) - Live Audio Streaming
-Custom HLS proxy with on-demand FFmpeg transcoding, serving 1K+ daily listeners with scalable concurrent streaming.
+### 🏥 Enterprise CDC Pipeline — Asgar Ali Hospital
+Zero-downtime Oracle → PostgreSQL migration, 175GB+ database, 400K+ patient records.
 
-**Tech:** FFmpeg, HLS, Node.js, Cloudflare R2
+**Tech:** Kafka · Debezium · PostgreSQL · Oracle · Node.js
 
-## 📊 GitHub Stats
+---
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ImranChowdhuryFahim&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9)
+### 📻 [spicefmbd.com](https://spicefmbd.com) — Live Audio Streaming
+Custom HLS proxy with FFmpeg transcoding, 1K+ daily listeners.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ImranChowdhuryFahim&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
+**Tech:** FFmpeg · HLS · Node.js · Cloudflare R2
+
+---
+
+### 🏢 Infinity Business — bKash KAM Platform
+Field operations platform for ~250 KAMs managing enterprise merchant accounts. 4-service Node.js/TypeScript + Python backend syncing ~900,000 merchants.
+
 
 ## 📝 Publications
 
@@ -84,10 +101,9 @@ Chittagong University of Engineering & Technology (CUET) | 2018-2023
 
 ## 🌱 Currently Exploring
 
-- Advanced distributed systems patterns
-- AI/ML integration in production systems
-- Real-time data streaming architectures
-- Vector databases and semantic search optimization
+- Microservice patterns and distributed system design
+- PHP/Laravel — new stack, new challenges
+- Advanced event-driven architectures
 
 ## 💡 Philosophy
 
